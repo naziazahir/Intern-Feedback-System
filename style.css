@@ -1,0 +1,36 @@
+
+/* Style for Header Section with Background Image */
+.header-section {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.header-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.header-section p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.backgroung_image{
+    width: 100%; /* Make the image responsive to container width */
+    max-width: 1200px; /* Optional: maximum width */
+    height: 500px; /* Fixed height */
+    object-fit: cover; /* Ensures the image covers the defined area without distortion */
+    display: block; /* Removes space below the image */
+    margin: 0 auto;
+
+}
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
